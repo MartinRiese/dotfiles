@@ -4,9 +4,11 @@ windows:
   - name: cloud
     root: commcare-cloud
     commands:
+      - alias jj="~/bin/select-command.sh ~/.config/smug/deploy_commands.txt"
       - pyenv activate hq
       - echo "Ctrl+b n Next window, p Previous"
   - name: hq
     root: commcare-hq-deploy
     commands:
+      - alias jj="~/bin/select-command.sh ~/.config/smug/deploy_commands.txt"
       - pyenv activate hq

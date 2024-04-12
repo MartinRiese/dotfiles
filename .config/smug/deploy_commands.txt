@@ -1,0 +1,6 @@
+# avoid quotes
+git pull
+cchq --control staging deploy
+cchq --control staging deploy formplayer
+scripts/rebuildstaging
+scripts/rebuildstaging --no-push
