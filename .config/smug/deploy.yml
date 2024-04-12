@@ -1,0 +1,12 @@
+session: deploy
+root: ~/git
+windows:
+  - name: cloud
+    root: commcare-cloud
+    commands:
+      - pyenv activate hq
+      - echo "Ctrl+b n Next window, p Previous"
+  - name: hq
+    root: commcare-hq-deploy
+    commands:
+      - pyenv activate hq
