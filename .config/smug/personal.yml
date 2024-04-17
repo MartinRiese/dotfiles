@@ -1,0 +1,9 @@
+session: personal
+root: ~/
+windows:
+  - name: dotfiles
+    root: dotfiles
+  - name: playground
+    root: git/playground
+    commands:
+      - pyenv activate playground
