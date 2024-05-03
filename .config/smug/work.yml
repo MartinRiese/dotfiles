@@ -1,0 +1,7 @@
+session: work
+root: ~/git/
+windows:
+  - name: hq
+    root: commcare-hq
+    commands:
+      - pyenv activate hq
