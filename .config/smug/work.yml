@@ -5,3 +5,22 @@ windows:
     root: commcare-hq
     commands:
       - pyenv activate hq
+      - yarn dev
+  - name: fp
+    root: formplayer
+    commands:
+      - ./gradlew assemble && java -jar build/libs/formplayer.jar
+  - name: es
+    commands:
+      - esup
+  - name: cloud
+    root: commcare-cloud
+    commands:
+      - alias jj="~/bin/select-command.sh ~/.config/smug/deploy_commands.txt"
+      - pyenv activate hq
+      - echo "Ctrl+b n Next window, p Previous"
+  - name: hq-deploy
+    root: commcare-hq-deploy
+    commands:
+      - alias jj="~/bin/select-command.sh ~/.config/smug/deploy_commands.txt"
+      - pyenv activate hq
