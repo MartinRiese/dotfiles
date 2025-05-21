@@ -12,8 +12,8 @@
     },
     "assistant": {
         "default_model": {
-            "provider": "google",
-            "model": "gemini-2.0-flash-thinking-exp"
+            "provider": "anthropic",
+            "model": "claude-3-7-sonnet-thinking-latest"
         },
         "version": "2"
     },
