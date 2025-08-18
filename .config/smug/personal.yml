@@ -6,4 +6,4 @@ windows:
   - name: playground
     root: git/playground
     commands:
-      - pyenv activate playground
+      # - pyenv activate playground
