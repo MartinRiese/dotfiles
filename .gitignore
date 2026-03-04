@@ -1,5 +1,7 @@
 lazy-lock.json
 .config/zed/conversations
+.config/zed/debug.json
 .config/zed/embeddings
 .config/zed/prompts
+.config/zed/tasks.json
 .config/zed/.tmp*
