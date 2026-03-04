@@ -1,6 +1,6 @@
 ---
 name: zettlr-notes
-description: Use when saving a note, recalling information, or searching notes. Triggers on: "save a note", "remember this", "what do I have on X", "look up my notes on X", "note that", "do you know about X".
+description: Use when saving a note, recalling information, or searching notes. Triggers on: "save a note", "add a note", "write a note", "note for X", "remember this", "what do I have on X", "look up my notes on X", "note that", "do you know about X".
 ---
 
 ## Note Directory
