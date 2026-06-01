@@ -18,3 +18,4 @@ lazy-lock.json
 .claude/session-env/
 .claude/sessions/
 .claude/shell-snapshots/
+.claude/paste-cache
