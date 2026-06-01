@@ -5,3 +5,16 @@ lazy-lock.json
 .config/zed/prompts
 .config/zed/tasks.json
 .config/zed/.tmp*
+.claude/backups/
+.claude/cache/
+.claude/downloads/
+.claude/file-history/
+.claude/history.jsonl
+.claude/mcp-needs-auth-cache.json
+.claude/plans/
+.claude/plugins/
+.claude/policy-limits.json
+.claude/projects/
+.claude/session-env/
+.claude/sessions/
+.claude/shell-snapshots/
