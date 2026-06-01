@@ -7,6 +7,18 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+    "git_panel": {
+        "dock": "left"
+    },
+    "outline_panel": {
+        "dock": "left"
+    },
+    "project_panel": {
+        "dock": "left"
+    },
+    "collaboration_panel": {
+        "button": false
+    },
     "edit_predictions": {
         "mode": "subtle",
         "copilot": {
@@ -20,6 +32,7 @@
         "edit_prediction_provider": "zed"
     },
     "agent": {
+        "button": false,
         "default_model": {
             "provider": "anthropic",
             "model": "claude-sonnet-4-5-latest"
