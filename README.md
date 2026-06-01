@@ -1,5 +1,3 @@
 # Stow
 
-Call `stow .` from within the `dotfiles` directory to sync with the home directory.
-
-
+If this is in `~/git/dotfiles`, call `stow dotfiles` from within `~/git` to sync with the home directory.
