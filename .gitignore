@@ -19,3 +19,5 @@ lazy-lock.json
 .claude/sessions/
 .claude/shell-snapshots/
 .claude/paste-cache
+.claude/.last-cleanup
+.claude/.last-update-result.json

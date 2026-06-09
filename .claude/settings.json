@@ -1,6 +1,26 @@
 {
   "enabledPlugins": {
-    "superpowers@claude-plugins-official": true
+    "superpowers@claude-plugins-official": true,
+    "uss-tech@dimagi-claude-workflows": true,
+    "manager@dimagi-claude-workflows": true,
+    "code-review@dimagi-claude-workflows": true
   },
-  "theme": "auto"
+  "extraKnownMarketplaces": {
+    "dimagi-claude-workflows": {
+      "source": {
+        "source": "git",
+        "url": "https://github.com/dimagi/dimagi-claude-workflows.git"
+      }
+    }
+  },
+  "pluginConfigs": {
+    "manager@dimagi-claude-workflows": {
+      "options": {
+        "notes_directory": "/Users/martinriese/Documents/notes/work/journal",
+        "review_day": "Friday morning"
+      }
+    }
+  },
+  "theme": "auto",
+  "model": "opus[1m]"
 }
